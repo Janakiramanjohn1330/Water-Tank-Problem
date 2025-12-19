@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#chart {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 40px;
+  height: 300px;
+}
+
+.bar {
+  width: 40px;
+  margin: 0 4px;
+  position: relative;
+}
+
+.block {
+  background: gold;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.water {
+  background: deepskyblue;
+  position: absolute;
+  width: 100%;
+}
